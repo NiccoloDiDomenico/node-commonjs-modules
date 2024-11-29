@@ -12,8 +12,13 @@ function fullName(firstName, lastName) {
 };
 // console.log(fullName(`Pippo`, `Pluto`));
 
-// Export
+// Export CJS
 module.exports = fullName
 
+// Export ES6
+// const functions = {
+//     fullName
+// }
+// export default functions;
 
 

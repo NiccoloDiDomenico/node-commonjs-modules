@@ -12,5 +12,12 @@ function fullHobbies(hobbyOne, hobbyTwo, hobbyThree) {
 };
 // console.log(fullHobbies(`Informatica`, `Cucina`, `Sport`));
 
-// Export
+// Export CJS
 module.exports = fullHobbies
+
+// Export ES6
+// const functions = {
+//     fullHobbies
+// }
+// export default functions;
+
