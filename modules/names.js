@@ -12,10 +12,8 @@ function fullName(firstName, lastName) {
 };
 // console.log(fullName(`Pippo`, `Pluto`));
 
-// Module
-module.export = {
-    fullName
-}
+// Export
+module.exports = fullName
 
 
 

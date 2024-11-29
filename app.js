@@ -1,18 +1,15 @@
-// Debug
-// console.log(process.argv)
-
 // Import modules
-const name = require(`./modules/names.js`);
-const hobby = require(`./modules/hobbies.js`);
+const fullName = require(`./modules/names.js`);
+const fullHobbies = require(`./modules/hobbies.js`);
 
 
-// Funciton
-function namesAndHobbies() {
+// Functions
+function nameAndHobbies() {
     return {
-        name.fullName(`Pippo`, `Pluto`)
-        hobby.fullHobbies(`Informatica`, `Cucina`, `Sport`)
+        Name: fullName(`Pippo`, `Pluto`),
+        Hobbies: fullHobbies(`Informatica`, `Cucina`, `Sport`)
     }
 }
 
-console.log(namesAndHobbies());
+console.log(nameAndHobbies());
 

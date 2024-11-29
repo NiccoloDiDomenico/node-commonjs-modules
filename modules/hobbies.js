@@ -12,7 +12,5 @@ function fullHobbies(hobbyOne, hobbyTwo, hobbyThree) {
 };
 // console.log(fullHobbies(`Informatica`, `Cucina`, `Sport`));
 
-// Module
-module.export = {
-    fullHobbies
-}
+// Export
+module.exports = fullHobbies
