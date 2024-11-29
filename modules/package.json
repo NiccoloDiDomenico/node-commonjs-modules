@@ -1,0 +1,14 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "Functions",
+  "main": "hobbies.js",
+  "scripts": {
+    "start": "node names.js", 
+    "dev": "node --watch names.js",
+    "start2": "node hobbies.js",
+    "dev2": "node --watch hobbies.js"
+  },
+  "author": "Niccolò Di Domenico",
+  "license": "ISC"
+}
