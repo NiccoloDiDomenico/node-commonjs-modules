@@ -4,7 +4,7 @@
  * @param {string} lastName
  * @returns {object} 
  */
-function fullName(firstName, lastName) {
+function getFullName(firstName, lastName) {
     return {
         firstName,
         lastName
@@ -13,12 +13,9 @@ function fullName(firstName, lastName) {
 // console.log(fullName(`Pippo`, `Pluto`));
 
 // Export CJS
-module.exports = fullName
+module.exports = getFullName
 
 // Export ES6
-// const functions = {
-//     fullName
-// }
-// export default functions;
+// export default getFullName;
 
 

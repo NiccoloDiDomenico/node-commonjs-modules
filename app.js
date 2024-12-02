@@ -1,17 +1,18 @@
 // Import modules CJS
-const fullName = require(`./modules/names.js`);
-const fullHobbies = require(`./modules/hobbies.js`);
+const getFullName = require(`./modules/names.js`);
+const getFullHobbies = require(`./modules/hobbies.js`);
 
 // Import modules ES6
-// import functions from "./modules/names.js";
-// import functions from "./modules/ho.js";
+// import getFullName from "./modules/names.js";
+// import getFullHobbies from "./modules/ho.js";
 
 
 // Functions
 function nameAndHobbies() {
     return {
-        Name: fullName(`Pippo`, `Pluto`),
-        Hobbies: fullHobbies(`Informatica`, `Cucina`, `Sport`)
+        // Uso spread operator per prendere gli oggetti nella funzione
+        fullName: getFullName(`Pippo`, `Pluto`),
+        ...getFullHobbies(`Informatica`, `Cucina`, `Sport`)
     }
 }
 

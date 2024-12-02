@@ -5,7 +5,7 @@
  * @param {string} hobbyThree
  * @returns {object} 
  */
-function fullHobbies(hobbyOne, hobbyTwo, hobbyThree) {
+function getFullHobbies(hobbyOne, hobbyTwo, hobbyThree) {
     return {
         hobbies: [hobbyOne, hobbyTwo, hobbyThree]
     };
@@ -13,11 +13,8 @@ function fullHobbies(hobbyOne, hobbyTwo, hobbyThree) {
 // console.log(fullHobbies(`Informatica`, `Cucina`, `Sport`));
 
 // Export CJS
-module.exports = fullHobbies
+module.exports = getFullHobbies
 
 // Export ES6
-// const functions = {
-//     fullHobbies
-// }
-// export default functions;
+// export default getFullHobbies;
 
